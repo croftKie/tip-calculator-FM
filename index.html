@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/main.js"></script>
+  <title>Tip calculator</title>
+</head>
+<body>
+  <h1>SP | LT</h1>
+  <div class="container">
+    <div class="bill">
+      <p>Bill</p>
+      <div>
+        <img src="images/icon-dollar.svg" alt="">
+        <input placeholder="143.55" type="text">
+      </div>
+    </div>
+    <div class="tipSelector">
+      <p>Select Tip %</p>
+      <div>
+        <button data-value="5">5%</button>
+        <button data-value="10">10%</button>
+        <button data-value="15">15%</button>
+        <button data-value="20">20%</button>
+        <button data-value="25">25%</button>
+        <input placeholder="Custom" type="text">
+      </div>
+    </div>
+    <div class="people">
+      <p>Number of People</p>
+      <div>
+        <img src="images/icon-person.svg" alt="">
+        <input placeholder="5" type="text">
+      </div>
+    </div>
+    <div class="result">
+      <div class="tip">
+        <h3>Tip Amount</h3>
+        <p>/ person</p>
+        <p class="tipAmount">£4.27</p>
+      </div>
+      <div class="Total">
+        <h3>Total</h3>
+        <p>/ person</p>
+        <p class="totalAmount">£32.79</p>
+      </div>
+      <button class="reset">RESET</button>
+    </div>
+  </div>
+</body>
+</html>
