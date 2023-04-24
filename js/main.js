@@ -45,6 +45,6 @@ window.addEventListener('input',()=>{
         tipAmount.textContent = 0;
         totalAmount.textContent = 0;
     }
-    tipAmount.textContent = `£${(bill * tip) / numOfPeople}`;
-    totalAmount.textContent = `£${bill / numOfPeople}`;
+    tipAmount.textContent = `£${((bill * tip) / numOfPeople).toFixed(2)}`;
+    totalAmount.textContent = `£${(bill / numOfPeople).toFixed(2)}`;
 });

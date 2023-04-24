@@ -42,6 +42,24 @@ h1 {
   box-sizing: border-box;
   padding: 20px 20px 0 20px;
 }
+@media screen and (min-width: 645px) {
+  .container {
+    width: 60%;
+    border-radius: 30px 30px 30px 30px;
+  }
+}
+@media screen and (min-width: 1150px) {
+  .container {
+    height: 450px;
+    width: 65%;
+    border-radius: 30px 30px 30px 30px;
+    flex-direction: row;
+    gap: 50px;
+  }
+}
+.container .inputs {
+  width: 100%;
+}
 .container .bill {
   width: 100%;
 }
@@ -142,6 +160,11 @@ h1 {
   height: 200px;
   box-sizing: border-box;
   padding: 20px;
+}
+@media screen and (min-width: 1150px) {
+  .container .result {
+    height: 80%;
+  }
 }
 .container .result div {
   display: grid;
